@@ -1,0 +1,35 @@
+body,
+div {
+  color: black;
+  background-color: lightgrey;
+}
+
+/* TEXTE */
+#conteneur p{
+  color:red;
+}
+
+#conteneur>p {
+  font-weight: bold;
+}
+
+#conteneur + p {
+  color: green;
+}
+
+h2 + p {
+  text-transform: uppercase;
+}
+
+code ~ p {
+  color: pink;
+}
+
+/* DIV */
+body>div {
+  background-color: yellow;
+}
+
+h1+div {
+  border: 5px solid green;
+}
