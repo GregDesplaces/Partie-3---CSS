@@ -1,0 +1,37 @@
+/* Composants social */
+.social {
+  text-align: center;
+}
+
+.social a {
+  display: inline-block;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.363);
+  margin-right: 15px;
+  width: 84px;
+  height: 84px;
+  background-image: url(./social-sprite.png);
+  transition: all .15s ease-out;
+  border-radius: 3px;
+}
+
+.social a:last-child {
+  margin-right: 0;
+}
+
+.social a:hover {
+  background-position-y: 50%;
+}
+
+/* Individuellement */
+.social .facebook {
+  background-position: 0 bottom;
+}
+.social .twitter {
+  background-position: 80% bottom;
+}
+.social .youtube {
+  background-position: 100% bottom;
+}
+.social .linkedin {
+  background-position: 40% bottom;
+}
